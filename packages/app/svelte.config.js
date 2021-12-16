@@ -7,7 +7,14 @@ const config = {
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'
-	}
+	},
+	vite: {
+		resolve: {
+			alias: {
+				'./runtimeConfig': './runtimeConfig.browser',
+			},
+		},
+	},
 };
 
 export default config;

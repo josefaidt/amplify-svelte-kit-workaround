@@ -10,6 +10,7 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
   "dependencies": {
+    "aws-amplify": "^4.3.11",
     "aws-exports": "*"
   },
   "devDependencies": {
