@@ -10,12 +10,14 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install
+        - nvm install 16
+        - yarn install
     build:
-      commands: []
+      commands:
+        - yarn workspace app run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /
+    baseDirectory: packages/app/build
     files:
       - '**/*'
   cache:
