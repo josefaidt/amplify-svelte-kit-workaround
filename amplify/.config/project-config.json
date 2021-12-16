@@ -1,0 +1,17 @@
+{
+  "projectName": "amplifysveltekitwork",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "none",
+    "config": {
+      "SourceDir": "packages/aws-exports",
+      "DistributionDir": "packages/app/build",
+      "BuildCommand": "yarn workspaces app run build",
+      "StartCommand": "yarn workspaces app run preview"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
