@@ -1,0 +1,8 @@
+{
+  "name": "aws-exports",
+  "exports": {
+    ".": {
+      "import": "./aws-exports.js"
+    }
+  }
+}
