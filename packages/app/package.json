@@ -13,7 +13,7 @@
     "aws-exports": "*"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
