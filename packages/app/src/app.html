@@ -6,6 +6,11 @@
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%svelte.head%
+		<script>
+			// temporary workaround for Amplify JS
+			window.global = window;
+			var exports = {};
+		</script>
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
